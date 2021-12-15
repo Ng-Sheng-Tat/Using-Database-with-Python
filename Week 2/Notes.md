@@ -11,8 +11,11 @@ __SQL Language__
 - retrieve data from table
 - insert data
 - delete data
+- update data
 - there are called ***CRUD*** functions
 <!-- http://sqlitebrowser.org/ -->
+***In SQL Lite***
+
 **SQL Code**
 contract/rules setting does not accept 129
 **CREATE TABLE**
@@ -34,6 +37,7 @@ DELETE FROM tblname WHERE email="stoang" Evaluates to true statement
 ```
 UPDATE tblname SET name="some" WHERE email="gnog" Evaluate to true statement
 ```
+**"*" means all**
 **RETRIEVING DATA**
 ```
 SELECT * FROM tblname
